@@ -1,0 +1,1366 @@
+{
+  "intents": [
+    {
+      "intent": "movie",
+      "examples": [
+        {
+          "text": "Please, write the title of the movie you want to watch :"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ticketnumber",
+      "examples": [
+        {
+          "text": "Please, precise the number of tickets :"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "age",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "19",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "book",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "book",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "booking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reserve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reserving",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "meriameslimane@gmail.com",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "goodbye",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good bye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "goodbye",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hallo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hello",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "list",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "available",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "film",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "films",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "list",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "list of films",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "movies",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abominable",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blinded by the Light",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bombshell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Five feet apart",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frozen2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gemini Man",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hustlers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joker",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Knives Out",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lion King",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maleficient",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Once Upon a Time in Hollywood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "schedule",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Terminator",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Addams Family",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Farewell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Kitchen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Secret Life of Pets 2",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "meriame",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "offers",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "discount",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "offer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "offers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reduction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reductions",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "payment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "American Express",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blue card",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MasterCard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PayPal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visa",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ticketnumber",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yesorno",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1614115311796",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_10_1614115311798"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1614102708650",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1614104041493"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_5_1614124104260",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1614124302468"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1614124303367",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1614124303409",
+      "previous_sibling": "handler_8_1614124303409"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1614104042510",
+      "context": {
+        "movies": "@movies"
+      },
+      "conditions": "@movies",
+      "event_name": "input",
+      "dialog_node": "handler_2_1614104042547"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1614115573885",
+      "context": {
+        "email": "@email"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_2_1614115573886"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1614095404557",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1614095404573",
+      "previous_sibling": "handler_6_1614095404573"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please, enter your age : "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1614115478734",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1614115478736",
+      "previous_sibling": "handler_6_1614115478736"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please, enter your email adress :"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1614115573885",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1614115573886",
+      "previous_sibling": "handler_2_1614115573886"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1614095404557",
+      "event_name": "input",
+      "dialog_node": "handler_6_1614095404573"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please, write how many tickets you want :"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1614104131179",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1614104131182",
+      "previous_sibling": "handler_7_1614104131182"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1614115478734",
+      "context": {
+        "age": "@age"
+      },
+      "conditions": "@age",
+      "event_name": "input",
+      "dialog_node": "handler_6_1614115478736"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please, write the movie's name :"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1614104042510",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1614104042547",
+      "previous_sibling": "handler_2_1614104042547"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1614104131179",
+      "context": {
+        "ticketnumber": "@ticketnumber"
+      },
+      "conditions": "@ticketnumber",
+      "event_name": "input",
+      "dialog_node": "handler_7_1614104131182"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1614104431689",
+      "context": {
+        "payment": "@payment"
+      },
+      "conditions": "@payment",
+      "event_name": "input",
+      "dialog_node": "handler_7_1614104431691"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1614124303367",
+      "event_name": "input",
+      "dialog_node": "handler_8_1614124303409"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please, Write your payment method( MasterCard ; Visa ; PayPal ; American Express ) "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1614104431689",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1614104431691",
+      "previous_sibling": "handler_7_1614104431691"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please, enter your name: "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1614115311796",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1614115311799",
+      "previous_sibling": "handler_10_1614115311798"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you confirm the booking of $ticketnumber tickets for the $movies movie through $payment (Yes/No) ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@book",
+      "dialog_node": "node_10_1614102708650",
+      "previous_sibling": "node_3_1614101998049"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome :D "
+              },
+              {
+                "text": "Please, don't forget  your masks."
+              },
+              {
+                "text": "Stay safe !"
+              },
+              {
+                "text": "Customer service : 0345 308 4620\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@goodbye",
+      "dialog_node": "node_10_1614106586851",
+      "previous_sibling": "node_5_1614124104260"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "source": "https://orgs.ncsu.edu/uab/wp-content/uploads/sites/7/2020/01/q3-464x600.png",
+            "description": "Here is the Quarter 3 Spring 2021  Semester Movie schedule:",
+            "response_type": "image"
+          },
+          {
+            "title": "Kindly select the film you want to watch:",
+            "options": [
+              {
+                "label": "Lion King",
+                "value": {
+                  "input": {
+                    "text": "Lion King: Oups! Sorry, all the places have been reserved for this film.Please,  Reselect another one."
+                  }
+                }
+              },
+              {
+                "label": "Hustlers",
+                "value": {
+                  "input": {
+                    "text": "Hustlers: Number of tickets :5  --> 10$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Knives Out",
+                "value": {
+                  "input": {
+                    "text": "Knives Out: Number of  tickets :8  --> 11$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Terminator",
+                "value": {
+                  "input": {
+                    "text": "Terminator: Number of  tickets :1  --> 11$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Gemini Man ",
+                "value": {
+                  "input": {
+                    "text": "Gemini Man : Number of  tickets :5  --> 12$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "The Farewell",
+                "value": {
+                  "input": {
+                    "text": "The Farewell: Number of  tickets :10 --> 8$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Blinded by the Light",
+                "value": {
+                  "input": {
+                    "text": "Blinded by the Light: Number of  tickets :7  --> 9$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "The Addams Family",
+                "value": {
+                  "input": {
+                    "text": "The Addams Family: Number of  tickets :5  --> 10$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "The Secret Life of Pets 2 ",
+                "value": {
+                  "input": {
+                    "text": "The Secret Life of Pets 2 : Number of  tickets :15  --> 6$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Maleficient",
+                "value": {
+                  "input": {
+                    "text": "Maleficient: Number of  tickets :4  --> 10$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Five feet apart",
+                "value": {
+                  "input": {
+                    "text": "Five feet apart : Number of  tickets :16  --> 6$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Once Upon a Time in Hollywood ",
+                "value": {
+                  "input": {
+                    "text": "Once Upon a Time in Hollywood : Number of  tickets :6 --> 10$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Joker",
+                "value": {
+                  "input": {
+                    "text": "Joker: Number of available tickets :5  --> 10$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "The Kitchen ",
+                "value": {
+                  "input": {
+                    "text": "The Kitchen : Number of  tickets :10  --> 8.5$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Bombshell",
+                "value": {
+                  "input": {
+                    "text": "Bombshell: Number of  tickets :9 --> 10$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Abominable",
+                "value": {
+                  "input": {
+                    "text": "Abominable: Number of tickets :3 --> 15$/ticket"
+                  }
+                }
+              },
+              {
+                "label": "Frozen2",
+                "value": {
+                  "input": {
+                    "text": "Frozen2: Number of  tickets :2  --> 12$/ticket"
+                  }
+                }
+              }
+            ],
+            "description": "Please, note that we have reduced the number of tickets  because of Corona virus  precaution measures.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@list",
+      "dialog_node": "node_3_1614095478273"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer 30 % discount if you're under 22 years old !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@offers",
+      "dialog_node": "node_3_1614101998049",
+      "previous_sibling": "node_3_1614095478273"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1614095478273",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@movies",
+      "dialog_node": "node_3_1614121881180"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@yesorno",
+      "dialog_node": "node_5_1614124104260",
+      "previous_sibling": "node_10_1614102708650"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lion King: Oups! Sorry, all the places have been reserved for this film.Please,  Reselect another one."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Lion King)",
+      "dialog_node": "response_1_1614122288262"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :1  --> 11$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Hustlers)",
+      "dialog_node": "response_1_1614122483757",
+      "previous_sibling": "response_7_1614122428485"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :7  --> 9$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Blinded by the Light)",
+      "dialog_node": "response_1_1614122637482",
+      "previous_sibling": "response_9_1614122605461"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :5  --> 10$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(The Addams Family)",
+      "dialog_node": "response_1_1614122670327",
+      "previous_sibling": "response_1_1614122637482"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :4  --> 10$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Maleficient)",
+      "dialog_node": "response_1_1614122766522",
+      "previous_sibling": "response_7_1614122718362"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well registred $name ! We will send an email to $email to confirm your registration."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614124104260",
+      "conditions": "@yesorno:Yes",
+      "dialog_node": "response_1_1614124122591",
+      "previous_sibling": "slot_10_1614124303367"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :5  --> 12$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Gemini Man)",
+      "dialog_node": "response_2_1614122572235",
+      "previous_sibling": "response_5_1614122518943"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of tickets :5  --> 10$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Hustlers)",
+      "dialog_node": "response_3_1614122342391",
+      "previous_sibling": "response_1_1614122288262"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :9 --> 10$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Bombshell)",
+      "dialog_node": "response_3_1614122973459",
+      "previous_sibling": "response_8_1614122905520"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of tickets :3 --> 15$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Abominable)",
+      "dialog_node": "response_3_1614123011169",
+      "previous_sibling": "response_3_1614122973459"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :6 --> 10$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Once Upon a Time in Hollywood)",
+      "dialog_node": "response_4_1614122851864",
+      "previous_sibling": "response_7_1614122807169"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :1  --> 11$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Terminator)",
+      "dialog_node": "response_5_1614122518943",
+      "previous_sibling": "response_1_1614122483757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, how can I help you ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "dialog_node": "response_6_1614097973252"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "dialog_node": "response_6_1614097986220",
+      "previous_sibling": "response_6_1614097973252"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :8  --> 11$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Knives Out)",
+      "dialog_node": "response_7_1614122428485",
+      "previous_sibling": "response_3_1614122342391"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :15  --> 6$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(The Secret Life of Pets 2)",
+      "dialog_node": "response_7_1614122718362",
+      "previous_sibling": "response_1_1614122670327"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :16  --> 6$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Five feet apart)",
+      "dialog_node": "response_7_1614122807169",
+      "previous_sibling": "response_1_1614122766522"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614124104260",
+      "conditions": "@yesorno:No",
+      "dialog_node": "response_7_1614124403336",
+      "previous_sibling": "response_1_1614124122591"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of available tickets :5  --> 10$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Joker)",
+      "dialog_node": "response_8_1614122905520",
+      "previous_sibling": "response_4_1614122851864"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :2  --> 12$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(Frozen2)",
+      "dialog_node": "response_8_1614123032446",
+      "previous_sibling": "response_3_1614123011169"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of  tickets :10 --> 8$/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614121881180",
+      "conditions": "@movies:(The Farewell)",
+      "dialog_node": "response_9_1614122605461",
+      "previous_sibling": "response_2_1614122572235"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1614102708650",
+      "variable": "$payment",
+      "dialog_node": "slot_10_1614104431689",
+      "previous_sibling": "slot_2_1614104131179"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1614102708650",
+      "variable": "$email",
+      "dialog_node": "slot_10_1614115573885",
+      "previous_sibling": "slot_3_1614115478734"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1614124104260",
+      "dialog_node": "slot_10_1614124303367",
+      "previous_sibling": "handler_1_1614124302468"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1614102708650",
+      "variable": "$ticketnumber",
+      "dialog_node": "slot_2_1614104131179",
+      "previous_sibling": "slot_9_1614104042510"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1614102708650",
+      "variable": "$age",
+      "dialog_node": "slot_3_1614115478734",
+      "previous_sibling": "slot_4_1614115311796"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1614102708650",
+      "variable": "$name",
+      "dialog_node": "slot_4_1614115311796",
+      "previous_sibling": "slot_10_1614104431689"
+    },
+    {
+      "type": "slot",
+      "parent": "Welcome",
+      "dialog_node": "slot_5_1614095404557",
+      "previous_sibling": "response_6_1614097986220"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1614102708650",
+      "variable": "$movies",
+      "dialog_node": "slot_9_1614104042510",
+      "previous_sibling": "handler_1_1614104041493"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome! You're with the famous Movie Ticketing Bot!",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@greeting",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_10_1614106586851"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "movie ticket chatbot",
+  "language": "en",
+  "description": ""
+}
